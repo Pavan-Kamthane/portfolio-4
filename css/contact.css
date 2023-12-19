@@ -1,0 +1,109 @@
+#contactme{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    background: #000;
+    color: white;
+}
+
+#contactme .box{
+    width: 90%;
+    height: 40%;
+    background: url("../img/me2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* blind */
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+#contactme .box h1{
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#contactme .box h1 span{
+    color: #ff0059;
+}
+
+#contactme .box p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#contactme .info{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 30px;
+}
+
+#contactme .info h2{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 10px;
+}
+#contactme .info a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    #contactme .box{
+        padding: 20px;
+        width: 90%;
+        height: 50%;
+    background-position: left;
+    }
+    #contactme .box h1{
+        font-size: 2rem;
+        /* text-wrap: nowrap; */
+    }
+    #contactme .box p{
+        font-size: 1.2rem;
+    }
+
+    #contactme .info{
+        width: 90%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        gap: 30px;
+    }
+    
+}

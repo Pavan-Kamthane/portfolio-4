@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Stylish', serif;
+    /* background: gray; */
+}
+
+body{
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: rgb(48, 46, 46);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ff0059;
+    border-radius: 10px;
+}
